@@ -16,7 +16,7 @@ export function About() {
               <Image src={AboutImg1}
                 alt="dog&cat"
                 fill
-                quality={100}
+                quality={75}
                 className="object-cover hover:scale-110 duration-300 " />
 
 
@@ -24,7 +24,7 @@ export function About() {
             <div className="absolute w-40 h-40 right-4 -bottom-8 rounded-lg border-4 overflow-hidden border-white">
               <Image src={AboutImg2}
                 alt="orange-cat"
-                quality={100}
+                quality={75}
                 fill
               />
             </div>

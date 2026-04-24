@@ -67,7 +67,7 @@ export function Hero() {
               className='object-contain'
               fill
               sizes='(max-width: 768px) 0vw, 50vw'
-              quality={100}
+              quality={75}
               priority
             />
           </div>
