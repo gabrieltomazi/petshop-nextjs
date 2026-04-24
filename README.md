@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐾 Pet Shop Landing Page
 
-## Getting Started
+Uma Landing Page moderna, rápida e responsiva desenvolvida para um Pet Shop. Este projeto tem como objetivo demonstrar os serviços, sobre a empresa, avaliações de clientes e contato de forma atrativa e direta, oferecendo uma excelente experiência para o usuário.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto foi construído com as melhores e mais modernas tecnologias do ecossistema front-end:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **[Next.js](https://nextjs.org/)**: Framework React para renderização rápida, otimização de imagens e SEO.
+- **[React](https://react.dev/)**: Biblioteca JavaScript para construção da interface de usuário.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS utilitário para estilização rápida e responsiva.
+- **[Shadcn UI](https://ui.shadcn.com/)**: Componentes de interface acessíveis e customizáveis.
+- **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)**: Biblioteca para animações fluidas enquanto o usuário rola a página.
+- **[Lucide React](https://lucide.dev/)**: Biblioteca de ícones bonitos e consistentes.
+- **[Embla Carousel](https://www.embla-carousel.com/)**: Utilizado para criação de sliders fluidos.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Design Responsivo**: Adaptado para funcionar perfeitamente em celulares, tablets e desktops.
+- **Animações Fluidas**: Elementos surgem na tela suavemente ao rolar a página, melhorando o engajamento através da biblioteca AOS.
+- **Otimização de Imagens**: Uso do componente `next/image` para carregamento rápido e economia de dados.
+- **Botão Flutuante do WhatsApp**: Facilita o contato direto do cliente com o Pet Shop.
+- **Seções Estruturadas**:
+  - **Hero**: Área de destaque inicial com chamada para ação (Call to Action).
+  - **Sobre (About)**: Informações sobre a empresa e infraestrutura.
+  - **Serviços (Services)**: Demonstração do que o Pet Shop oferece (Banho, Tosa, Veterinário, etc).
+  - **Depoimentos (Testimonials)**: Prova social com avaliações de clientes.
+  - **Rodapé (Footer)**: Links úteis e informações de localização.
 
-## Learn More
+## 🛠️ Como rodar o projeto localmente
 
-To learn more about Next.js, take a look at the following resources:
+Siga os passos abaixo para rodar o projeto na sua máquina:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/gabrieltomazi/petshop-nextjs.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Acesse a pasta do projeto**
+   ```bash
+   cd petshop
+   ```
 
-## Deploy on Vercel
+3. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Inicie o servidor de desenvolvimento**
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. **Acesse no navegador**
+   Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Gabriel Tomazi**. 
+
+Sinta-se à vontade para entrar em contato ou conferir mais do meu trabalho através do meu perfil no GitHub: [gabrieltomazi](https://github.com/gabrieltomazi).
